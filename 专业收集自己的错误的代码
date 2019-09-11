@@ -8,3 +8,5 @@ elif TempStr[-1] in ['C','c']:
     print("转换后的温度是{:.2f}F".format(F))
 else:
     print("输入格式错误")
+#练习19 无法变成将X的内容转换成字符串
+print(str(1.23))
