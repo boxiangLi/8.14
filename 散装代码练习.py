@@ -47,3 +47,8 @@ print(a)
 #练习16
 a="1,2,3,4,5,6,7,8,9"[::-2]
 print(a)
+#练习17
+print(len("abcdcfghijk"))
+#练习18
+a=len("123456789")
+print(a)
