@@ -52,3 +52,8 @@ print(len("abcdcfghijk"))
 #练习18
 a=len("123456789")
 print(a)
+#练习19
+a="1+1=2"+chr(10004)
+print(a)
+b="1+1=3"+chr(10005)
+print(b)
