@@ -63,3 +63,15 @@ print(a)
 #练习21
 b=str(ord("♉"))
 print(b)
+#练习22
+a="bcDFGHjkL".lower()
+print(a)
+#练习23
+b="L,I,B,O,X,I,A,N,G".split(',')
+print(b)
+#练习24
+c="liboxiang iiiiiiiiii".count("i")
+print(c)
+#练习25
+d="LIBOXIANG".replace("G","G-love")
+print(d)
