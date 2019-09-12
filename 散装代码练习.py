@@ -57,3 +57,9 @@ a="1+1=2"+chr(10004)
 print(a)
 b="1+1=3"+chr(10005)
 print(b)
+#练习20
+a=chr(9801)
+print(a)
+#练习21
+b=str(ord("♉"))
+print(b)
