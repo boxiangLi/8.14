@@ -75,3 +75,12 @@ print(c)
 #练习25
 d="LIBOXIANG".replace("G","G-love")
 print(d)
+#练习26
+a="LIBOXIANG".center(20,"=")
+print(a)
+#练习27
+b="LIBOXIANG".strip("LGINA")
+print(b)
+#练习28
+c=",".join("LIBOXIANG")
+print(c)
