@@ -102,3 +102,4 @@ print(a)
 #练习34
 a="{:10}".format("LBX")
 print(a)
+#
