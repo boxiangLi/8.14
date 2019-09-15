@@ -102,4 +102,6 @@ print(a)
 #练习34
 a="{:10}".format("LBX")
 print(a)
-#
+#练习35
+for i in range(12):
+    print(chr(9800+i),end="")
