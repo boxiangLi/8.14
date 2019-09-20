@@ -43,3 +43,11 @@ print(a)
 #复习11
 a=len("1,1,1,1,1,1,,1,1,1,1,,1,,1,1,")
 print(a)
+#复习12
+a="1+1=2"+chr(10004)
+print(a)
+a="1+1=1"+chr(10005)
+print(a)
+#复习13
+for i in range(12):
+    print(chr(9800+i),end="")
