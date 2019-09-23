@@ -51,4 +51,18 @@ print(a)
 #复习13
 for i in range(12):
     print(chr(9800+i),end="")
-#
+#复习13
+a="LIBOXIANG".center(20,"-")
+print(a)
+#复习14
+a="=LIBOXIANG=".strip("=LG")
+print(a)
+#复习15
+a=":".join("1234567")
+print(a)
+#复习16实例
+a="{}:计算机{}的CPU占用率{}%".format("2019/9/29","C","10")
+print(a)
+#复习17
+a="{0:=^20}".format("python")
+print(a)
