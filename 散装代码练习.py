@@ -105,3 +105,28 @@ print(a)
 #练习35
 for i in range(12):
     print(chr(9800+i),end="")
+#复习36
+import time
+a=time.time()
+print(a)
+a=time.ctime()
+print(a)
+a=time.gmtime()
+print(a)
+t=time.gmtime()
+a=time.strftime("%Y-%m-%d %H:%M:%S",t)
+print(a)
+#复习37
+#程序计时器实例
+import time
+start=time.perf_counter()
+end=time.perf_counter()
+a=end-start
+print(a)
+#复习38
+#停顿计时器实例
+import time
+def wait():
+    time.sleep(10)
+a=wait()
+print(a)
