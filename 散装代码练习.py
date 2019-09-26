@@ -142,3 +142,9 @@ for i in range(scale+1):
 print("{:^3.0f}%[{}->{}]".format(c,a,b))
 time.sleep(10)
 print("-----执行结束-----")
+#复习40
+#单行进度条的实例
+import time
+for i in range(101):
+    print("\r{:3}".format(i),end="")
+    time.sleep(0.1)
