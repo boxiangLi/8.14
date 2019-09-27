@@ -186,3 +186,15 @@ elif score>=80:
 elif score>=90:
     grade="A"
 print("请输入成绩属于级别{}".format(grade))
+#练习46
+guess=eval(input())
+if guess>99 or guess<99:
+    print("猜错了")
+else:
+    print("猜对了")
+#练习47
+try:
+ num =eavl (input("请输入一个整数："))
+ print(num**2)
+except:
+    print("输入不是整数")
