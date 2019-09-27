@@ -162,3 +162,27 @@ for i in range(scale+1):
     print("\r{:^3.0f}%[{}- > {}]{:.2f}s".format(c,a,b,dur),end="")
     time.sleep(0.1)
     print("\n"+"执行结束".center(scale//2,'-'))
+#练习42
+guess=eval(input(""))
+if guess==99:
+    print("猜对了")
+#练习43
+guess = eval(input())
+if guess==99:
+    print("猜对了")
+else:
+    print("猜错了")
+#练习44
+guess=eval(input())
+print("猜{}了".format("对"if guess==99 else"错"))
+#练习45
+score=eval(input())
+if score>=60:
+    grade="D"
+elif score>=70:
+    grade="C"
+elif score>=80:
+    grade="B"
+elif score>=90:
+    grade="A"
+print("请输入成绩属于级别{}".format(grade))
