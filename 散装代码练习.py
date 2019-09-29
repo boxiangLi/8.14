@@ -220,3 +220,18 @@ elif 25<=bmi<28:
 elif 28<=bmi<30:
     who,nat="偏胖","肥胖"
 print("BMI指标为：国际'{0}',国内'{1}'".format(who,nat))
+#练习50
+for i in range(6):
+    print(i)
+#练习51
+for i in range(6):
+    print("LIBOXIANG",i)
+#练习52
+for i in range(1,1000,2):
+    print(i)
+#练习53
+for i in "LIBOXIANG":
+    print(i,end=",")
+#练习54
+for i in ["A",123456,"B"]:
+    print(i,end=",")
