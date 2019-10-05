@@ -245,4 +245,16 @@ import random
 random.seed(10)
 random.random()
 random.seed(10)
+#练习57
+import random
+random.randint(10,100)
+#练习58
+import random
+random.randrange(10,100,10)
+#练习59
+import random
+random.choice([1,2,3,4,5,6])
+#练习60
+import random
+s=[1,2,3,4,5,6,7,8,9];random.shuffle(s);print(s)
 random.random()
