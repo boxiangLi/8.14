@@ -235,4 +235,14 @@ for i in "LIBOXIANG":
 #练习54
 for i in ["A",123456,"B"]:
     print(i,end=",")
-#
+#练习55
+import random
+random.seed(10)
+random.random()
+random.random()
+#练习56
+import random
+random.seed(10)
+random.random()
+random.seed(10)
+random.random()
