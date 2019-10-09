@@ -258,7 +258,7 @@ random.choice([1,2,3,4,5,6])
 import random
 s=[1,2,3,4,5,6,7,8,9];random.shuffle(s);print(s)
 random.random()
-#练习62
+#练习61
 from random import random
 from time import perf_counter
 DARTS=1000*1000
