@@ -272,3 +272,21 @@ for i in range (1,DARTS+1):
     pi=4*(hits/DARTS)
 print("圆周值是：{}".format(pi))
 print("运行时间是:5f}".format(perf_counter()-start))
+#练习62
+def fact (n,m=1):
+    s=1
+    for i in range(1,m+1):
+        s*=i
+    return s//m
+a=fact(10)
+print(a)
+#练习63
+def fact(n,*b):
+    s=1
+    for i in range(1,n+1):
+        s*=i
+        for item in b :
+            s*=item
+        return s
+a=fact(10,3)
+print(a)
