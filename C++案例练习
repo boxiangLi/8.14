@@ -1,6 +1,22 @@
+//练习1
 #include<stdio.h>
 int main()
 {
 	printf("Hello,world\n");
 	return 0; 
  } 
+ //作业0601
+#include<stdio.h>
+int main()
+{
+	printf("学习 C++的捷径是看例子！\n");
+	return 0; 
+ }
+ /作业0602
+ #include<stdio.h>
+int main()
+{
+	printf("学习 C++务必要仔细观察！\n学习 C++务必要勤于思考！\n学习 C++务必要勤于实践！ \n");
+	return 0; 
+ } 
+ //作业0603
