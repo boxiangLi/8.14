@@ -20,3 +20,14 @@ int main()
 	return 0; 
  } 
  //作业0603
+#include <stdio.h>
+
+int main()           
+{
+	int sum; 
+	
+	printf("%d\n", 789 - 621);
+	sum = 789 - 621;
+	
+	printf("%d\n", sum);                              
+}
