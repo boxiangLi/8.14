@@ -31,3 +31,30 @@ int main()
 	
 	printf("%d\n", sum);                              
 }
+#include <stdio.h>
+
+int main()
+{
+	int a,b,c;
+	
+	printf("请输入两个整数");
+	scanf("%d%d", &a, &b);
+	
+	c =a + b;
+	
+	printf("%d\n", c);
+}
+#include <cmath>
+#include <iostream>
+using namespace std;                                 
+
+int main()
+{		
+	double a, b, c,d;     
+	cout << "请输入长方形的长和宽：";   
+	cin >> a >> b;  
+	c = a*b;
+	d=a+a+b+b;      
+	cout << c << '\n';
+	cout << d << '\n';        
+}
