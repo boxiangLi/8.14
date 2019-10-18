@@ -70,3 +70,4 @@ int main()
 	printf("小明同学的学号是%d,成绩是%.1f\n",num,score);
 	return 0;
  } 
+//
