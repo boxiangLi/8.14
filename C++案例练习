@@ -81,3 +81,16 @@ int main()
 	printf("%c\n",ch + 32);
 	return 0; 	
  } 
+ //练习5求圆的面积和周长
+ 
+int main()
+{
+	float r,s,l;
+	printf("请输入圆的半径:\n");
+	scanf("%f",&r);
+	s = 3.14*r*r;
+	l = 2 * 3.14*r;
+	printf("圆面积为: %0.2f\n",s);
+	printf("圆周长为：%0.2f\n",l);
+	return 0;
+}
