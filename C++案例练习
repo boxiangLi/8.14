@@ -58,8 +58,9 @@ int main()
 	cout << c << '\n';
 	cout << d << '\n';        
 }
-//练习1 10.16
+//练习2 10.16
 学了进制转换
+//练习3
 #include <stdio.h>
 int main()
 {
@@ -70,4 +71,13 @@ int main()
 	printf("小明同学的学号是%d,成绩是%.1f\n",num,score);
 	return 0;
  } 
-//
+//练习4
+
+int main()
+{
+	char ch;
+	printf("请输入一个大写字母: \n");
+	scanf("%c", &ch);
+	printf("%c\n",ch + 32);
+	return 0; 	
+ } 
