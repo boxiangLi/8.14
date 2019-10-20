@@ -94,3 +94,14 @@ int main()
 	printf("圆周长为：%0.2f\n",l);
 	return 0;
 }
+练习6
+using namespace std;
+
+int main()
+{
+	char a;
+	cout <<"Input letter:"<<endl;
+	cin >> a;
+	cout << int(a) << endl;
+	 
+ } 
