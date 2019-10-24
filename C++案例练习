@@ -120,3 +120,28 @@ int main()
 	printf("余：%d\n",num1 % num2);
 	return 0;
  } 
+练习8
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a,b;
+	cout<<"请输入a与b的值：\n";
+	cin>>a>>b;
+	printf("a = %d,b = %d\n", a, b);
+	swap(a, b);
+	printf("a = %d, b = %d\n, a, b");
+}
+练习9
+#include <stdio.h>
+int main()
+{
+	int num;
+	printf("请输入一个整数：\n");
+	scanf("%d",&num);
+	printf("第一个表达式结果；%d\n", --num);
+	printf("第二个表达式结果：%d\n",(++num) + (num++) * (num--));
+	return 0;
+}
