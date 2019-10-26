@@ -66,3 +66,4 @@ print(a)
 #复习17
 a="{0:=^20}".format("python")
 print(a)
+#
