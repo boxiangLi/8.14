@@ -145,4 +145,4 @@ int main()
 	printf("第二个表达式结果：%d\n",(++num) + (num++) * (num--));
 	return 0;
 }
-//
+//练习10
