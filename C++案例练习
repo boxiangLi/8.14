@@ -145,4 +145,15 @@ int main()
 	printf("第二个表达式结果：%d\n",(++num) + (num++) * (num--));
 	return 0;
 }
-//
+//练习10
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int grade;    	
+	cout << "请输入学生成绩：";
+	cin >> grade;
+	
+	cout << (grade >= 60 ? "Passed" : "Failed"); //+ 输出条件运算符构成的表达式  
+} 
