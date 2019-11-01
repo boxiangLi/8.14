@@ -157,3 +157,4 @@ int main()
 	
 	cout << (grade >= 60 ? "Passed" : "Failed"); //+ 输出条件运算符构成的表达式  
 } 
+//
