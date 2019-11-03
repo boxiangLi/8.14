@@ -168,3 +168,23 @@ int main()
 	c=a+b;
 	cout<<c;
 }
+//练习12
+include <iostream>
+using namespace std;
+int main ()
+{
+	int grade;
+	cout<<"请输入一个百分制成绩(整数): " ;
+	cin >> grade ; 
+	if(grade>=90)
+	   cout << "A" << endl;
+	else if(grade>=80 & grade<90)
+	   cout << "B" << endl;
+	else if(grade>=70 & grade<80)
+	   cout << "C" << endl;	
+	else if(grade>=60 & grade<70)
+	   cout << "D" << endl;
+	else if(grade<=59)
+	   cout << "F" << endl; 
+	 
+}
