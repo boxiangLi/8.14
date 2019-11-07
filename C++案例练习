@@ -215,4 +215,22 @@ int main( )
 					break;			
 		default:	cout << "永不到此\n";
 	}
-}
+\\练习14
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int count; 
+   
+   for ( count = 1; count <= 10; ++count )  
+   {
+      if ( count == 5 )                          //+ 如果count等于5  
+         break;                                  //+ 则结束循环   
+
+      cout << count << " ";
+   } 
+
+   cout << "\nBroke out of loop at count = " << count << endl;
+   return 0; 
+} 
