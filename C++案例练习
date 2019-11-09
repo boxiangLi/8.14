@@ -234,3 +234,31 @@ int main()
    cout << "\nBroke out of loop at count = " << count << endl;
    return 0; 
 } 
+//练习15
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int n,i=0,sum;
+	cin>>n;
+	while(++i,i<=n)
+    sum += i*i;
+	cout<<sum<<endl;	
+}
+//练习16
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a,b=0;
+	int sum=0;
+	cin>>a;
+	do{
+		++b,sum+=b*b*b;	
+    cout<<b;
+	}while(sum<a);
+	--b;
+	cout<<b<<endl;
+ } 
