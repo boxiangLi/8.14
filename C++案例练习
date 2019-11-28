@@ -262,3 +262,23 @@ int main()
 	--b;
 	cout<<b<<endl;
  } 
+//
+#include<iostream>
+using namespace std;
+int main()
+{
+	cout<<"1是哇哈哈\n"
+		<<"2是百事可乐\n"
+		<<"3是营养快线\n"
+		<<"4是健力宝\n"<<endl;
+	char a;
+	cin>>a;
+	switch(a)
+	{
+		case'1':cout<<"哇哈哈"<<endl;break;
+		case'2':cout<<"百事可乐"<<endl;break;
+		case'3':cout<<"营养快线"<<endl;break;
+		case'4':cout<<"健力宝"<<endl;break; 
+		default:cout<<"你输入信息有误"<<endl; 
+	 } 
+}
