@@ -262,7 +262,7 @@ int main()
 	--b;
 	cout<<b<<endl;
  } 
-//
+//练习17
 #include<iostream>
 using namespace std;
 int main()
@@ -282,3 +282,45 @@ int main()
 		default:cout<<"你输入信息有误"<<endl; 
 	 } 
 }
+//练习18
+#include <iostream>
+using namespace std;
+int main()
+{
+	int i , a=0;
+	cin>>i;
+	while(i<=100)
+	{
+		a+=i;
+		i++;
+	}
+	cout<<"1到100的之和是："<<a<<endl;
+}
+//练习19
+#include <iostream>
+using namespace std;
+int main()
+{
+	int i,a=0;
+	cin>>i;
+	do
+	{
+		a+=i;
+		i++; 
+	}
+	while(i<=100);
+	cout<<"a到100之和为："<<a<<endl;
+}
+//练习20
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b=0;
+	cin>>a;
+	for(a;a<=100;a++)
+		b+=a;
+	cout<<"a到100之和为："<<b<<endl;
+	 
+		
+ } 
