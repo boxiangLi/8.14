@@ -341,3 +341,15 @@ int main()
 	} 
 	cout<<"b="<<b<<endl;
 }
+//练习22
+#include<iostream>
+using namespace std;
+int main()
+{
+	int i,a[8];
+	cin>>i;
+	for(i;i<=7;i++)
+		a[i]=i*i; 
+	for(i=0;i<=7;i++)
+	cout<<a[i]<<" ";
+}
