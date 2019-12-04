@@ -353,3 +353,27 @@ int main()
 	for(i=0;i<=7;i++)
 	cout<<a[i]<<" ";
 }
+//练习23
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a[4],i,sum=0;
+	double avg;
+	for (i=0;i<4;i++)
+	{
+		cout<<"a["<<i<<"]=";
+		cin>>a[i];
+		
+	}
+	cout<<a[0]<<" "<<a[1]<<" "<<a[2]<<" "<<a[3]<<" "<<endl;
+	
+	for(i=0;i<4;i++)
+	{
+		cout<<a[i]<<" ";
+	}
+	cout<<endl;
+	avg=(a[0]+a[1]+a[2]+a[3])/4.0;
+	cout<<"输出一维数组的平均值=  "<<avg<<endl;
+	
+}
