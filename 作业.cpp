@@ -28,4 +28,3 @@ int main() {
  cout << sum;
  system("pause");
  return 0;
-}
