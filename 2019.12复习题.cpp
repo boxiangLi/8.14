@@ -42,4 +42,22 @@ int main()
 	 }
 	 return 0;
 }
-//
+//A3
+#include <iostream>
+using namespace std;
+int main()
+{
+	long long int n,m=0,b;
+	cout<<"判断是否为回文数：";
+	cin>>n;
+	b=n;
+	while (n>0)
+	{
+		m=m*10+n%10;
+		n/=10;
+	 } 
+	 if(b==m)
+	 cout<<"1"<<endl;
+	 else
+	 cout<<"0"<<endl;
+}
