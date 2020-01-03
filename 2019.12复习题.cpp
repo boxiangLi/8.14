@@ -61,3 +61,23 @@ int main()
 	 else
 	 cout<<"0"<<endl;
 }
+//A4
+#include <iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,x;
+	cin>>a>>b>>c;
+	while (c-10>0)
+	{
+		a=1e10;
+		a%=b;
+		c=c-10;
+	}
+	for(int y=0;y<c;y++)
+	{
+		a*=10;
+	}
+	x=a/b%10;
+	cout<<x;
+}
