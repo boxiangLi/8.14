@@ -81,3 +81,44 @@ int main()
 	x=a/b%10;
 	cout<<x;
 }
+//A5
+#include <iostream>
+#include <iostream>
+using namespace std;
+int main()
+{
+	double b=1 ,a=2,c,i,mun=0 ,n;
+	cin>>n;
+	for(i=0;i<n;i++)
+	{
+		mun +=a/b;
+		c=a;
+		a=a+b;
+		b=c;
+	}
+	printf("%.9f",mun);
+}
+//A6
+#include <iostream>
+#include <string>
+#include <algorithm>
+using namespace std;
+bool check(const string &s)
+{
+	if(s.rfind('A')-s.find('A')==2
+	 &&s.rfind('2')-s.find('2')==3
+	 &&s.rfind('3')-s.find('3')==4
+	 &&s.rfind('4')-s.find('4')==5)
+	 return true;
+	 return false;
+}
+int main()
+{
+	string s="223344AA";
+	do
+	{
+		if(check(s)) cout<<s<<endl;
+	}
+	while(next_permutation(s.begin(),s.end()));
+	return 0;
+}
