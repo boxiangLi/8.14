@@ -122,3 +122,4 @@ int main()
 	while(next_permutation(s.begin(),s.end()));
 	return 0;
 }
+//
