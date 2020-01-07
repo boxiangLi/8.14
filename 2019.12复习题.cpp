@@ -122,4 +122,19 @@ int main()
 	while(next_permutation(s.begin(),s.end()));
 	return 0;
 }
-//
+//sing函数
+#include<iostream>
+using namespace std;
+inline int sign(double a)
+{
+	if(a>0)
+	return 1;
+	else
+	return -1;
+}
+int main()
+{
+	double a;
+	cin>>a;
+	cout<<sign(a);
+}
