@@ -138,4 +138,3 @@ int main()
 	cin>>a;
 	cout<<sign(a);
 }
-//
