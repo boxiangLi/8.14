@@ -1,4 +1,4 @@
-from flask import Flask,render_template,request
+#from flask import Flask,render_template,request
 
 server = Flask(__name__,static_url_path='')
 port=5500
